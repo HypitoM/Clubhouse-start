@@ -105,6 +105,27 @@ a{
     border-radius: 25px;
 }
 .header-slider__item-images {
-    margin-right: 82px;
-    margin-top: 10px;
+    margin: 10px 82px 0 0;
+}
+.header-dots{
+    list-style: none;
+    position: absolute;
+    right: 0;
+    top: 50%;
+}
+.header-dots button{
+    border: none;
+    background-color:#fff;
+    opacity: 0.5;
+    font-size: 0;
+    padding: 0;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    cursor: pointer;
+    outline: none;
+}
+.header-dots .slick-active button{
+    width: 15px;
+    opacity: 1;
 }
