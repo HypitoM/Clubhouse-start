@@ -73,7 +73,7 @@ a{
 }
 
 .header-slider {
-    padding-top: 111px;
+        padding-top: 111px;
 }
 .header-slider__item {
 }
@@ -127,9 +127,10 @@ a{
     border-radius: 3.5px;
     cursor: pointer;
     outline: none;
+    margin: 10px auto;
+    display: block;
 }
 .header-dots .slick-active button{
     width: 15px;
     opacity: 1;
-    transform: translateX(-50%);
 }
