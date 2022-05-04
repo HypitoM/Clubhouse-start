@@ -184,11 +184,12 @@ a{
     justify-content: space-between;
     padding-bottom: 76px;
 }
-.advantegas-box__info{
+.advantages-box__info{
     max-width: 455px;
     padding-top: 60px;
     background-image: url("../images/title-bg-1.svg");
     background-repeat: no-repeat;
+    background-position: 22px 76px;
 }
 .advantages-box__title{
     font-size: 35px;
