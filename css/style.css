@@ -187,14 +187,18 @@ a{
 .advantages-box--right .advantages-box__info{
     order: 1;
     background-image: url("../images/title-bg-2.svg");
-    background-position: 22px 76px;
+    background-position: 22px 130px;
 }
 .advantages-box__info{
-    max-width: 455px;
+    max-width: 456px;
     padding-top: 60px;
     background-image: url("../images/title-bg-1.svg");
     background-repeat: no-repeat;
     background-position: 22px 76px;
+}
+.advantages-box__info--bg{
+    background-image: url("../images/title-bg-3.svg");
+    background-position: 5px 105px;
 }
 .advantages-box__title{
     font-size: 35px;
