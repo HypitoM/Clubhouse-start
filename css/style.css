@@ -178,6 +178,9 @@ a{
 .advantages{
     padding-top: 64px;
     background-color: #F4F9FD;
+    background-image: url("../images/advantages-bg.png");
+    background-repeat: no-repeat;
+    background-position: center right;
 }
 .advantages-box{
     display: flex;
